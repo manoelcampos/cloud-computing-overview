@@ -1,0 +1,121 @@
+:revealjsdir: reveal.js
+// https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+:revealjs_slideNumber: true
+:source-highlighter: highlightjs
+:imagesdir: images
+:allow-uri-read:
+:safe: unsafe
+:listing-caption: Listing
+:revealjs_theme: white
+
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+= Cloud Computing Overview: como empreender no mercado de TI utilizando serviços na nuvem
+
+Prof. Me. Manoel Campos da Silva Filho +
+http://about.me/manoelcampos 
+
+== Cloud Computing Everywhere
+
+image::network-782707.png[background, link="https://pixabay.com/en/network-iot-internet-of-things-782707/"]
+
+// image::network-2402637.jpg[background, link="https://pixabay.com/en/network-server-system-2402637"]
+
+// image::cloud-computing.png[background, link="http://www.nubit.es/5-competencias-necesarias-para-trabajar-en-seguridad-cloud/"]
+
+== Como tudo começou: Provedores de Hospedagem
+
+image::locaweb31.jpg[background, link=https://exame.abril.com.br/negocios/locaweb-compra-all-in-mail]
+
+== O boom da Amazon: abertura de sua plataforma
+
+- A Amazon era tão boa em prover soluções de automação de infraestrutura e software que passou a fornecer tal infraestrutura como serviço.
+
+== A tendência atual
+
+- Quando uma empresa passa a ser tão boa no que faz, ela abre para outras participarem do negócio.
+- Exemplos são as lojas virtuais como Amaricanas, Ponto Frio, Magazine Luiza, E-Bay e a própria Amazon
+
+== Mas o que é Cloud Computing resolve (NIST)?
+
+- on-demand self-service
+- broad network access
+- resource pooling
+- rapid elasticity
+- measured service (monitoring)
+
+== Deployment Models (NIST)
+
+== Virtualização e Containers
+
+image::containers.png[link=https://linuxcontainers.org]
+
+== Características Básicas
+
+Modelos de Serviços
+
+== Os desafios de Startups de Tecnologia
+
+== Como grandes negócios começaram
+
+Ver o caso da amazon (acho que tem no livro lean startup)
+
+== O que precisa uma Startup de tecnologia
+
+== Como iniciar seu projeto sem custos de implantação
+
+- Custos crescendo de acordo com o crescimento do projeto (base de usuários)
+- Apresentar os serviços na nuvem que podem ser utilizados
+
+== Amazon Web Services (AWS)
+
+image::aws-services.png[background, link=https://aws.amazon.com/products]
+
+== Amazon Web Services (AWS)
+
+https://aws.amazon.com
+
+- Amazon S3
+- Amazon EC2
+- Amazon ELB
+- Amazon RDS
+
+== Additional AWS Services
+
+- Auto Scaling
+- CloudFormation
+- AWS Elastic Beanstalk
+
+== AWS for Mobile Apps
+- Amazon Lambda
+- Amazon API Gateway
+- Amazon Pinpoint / Amazon SNS
+- Amazon GameLift
+- AWS Device Farm
+
+== AWS CodePipeline
+
+== Cloud Native
+https://www.cncf.io
+
+== !
+
+image::thanks.jpg[background, link=http://www.mastiduniya.com/15-best-thank-you-images-for-whatsapp-to-wish/]
+
+== Virtualização vs Conteinerização
+
+image::virtualization-vs-containers-redhat.png[link=https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container, title=https://www.redhat.com/pt-br/topics/containers/whats-a-linux-container]
+
+- VM é mais pesada que container
+- Tem-se um OS para cada VM, além de um hypervisor para controlar as VMs
+- Um OS em cada VM aumenta o overhead mas dá mais flexibilidade: pode-se ter um OS diferente em cada VM e não necessariamente o OS da máquina Host tem que ser o mesmo das VMs
+- Conteiner é muito mais leve, mas não há um isolamento tão grande como usando VMs (o que pode trazer problemas de segurança)
+- Por serem mais leves, conteiners permitem diminuir a sobrecarga de recursos computacionais (como RAM e CPU), permitindo que mais clientes possam usufruir de uma mesma máquina física.
+- Conteiners são dependentes do sistema operacional da máquina física: Windows Containers ou Linux Containers.
