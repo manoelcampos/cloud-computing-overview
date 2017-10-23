@@ -34,7 +34,7 @@ endif::[]
 = Cloud Computing Overview: empreender no mercado de TI utilizando serviços na nuvem
 
 https://about.me/manoelcampos[Prof. Me. Manoel Campos da Silva Filho] +
-link::https://github.com/manoelcampos/cloud-computing-overview[github.com/manoelcampos/cloud-computing-overview]
+link:https://github.com/manoelcampos/cloud-computing-overview[github.com/manoelcampos/cloud-computing-overview]
 
 [[dark]]
 == Cloud Computing Everywhere
