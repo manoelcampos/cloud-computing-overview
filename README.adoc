@@ -79,7 +79,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 [%step]
 - Usar uma versão mais nova de tais runtimes muitas vezes dependia da disponibilização pelo provedor
 - Configurações do web server e muitas aplicações somente o provedor poderia instalar (se instalasse)
-- Quantidade de máquinas a usar aumentava muito o custo (para fazer balanceamento de carga, por exemplo)
+- Aumento de máquinas aumentava muito o custo (para fazer balanceamento de carga, por exemplo)
 
 [[dark]]
 == Hosting Providers x Cloud
@@ -87,9 +87,9 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Backups era automartizados mas tinham muitos processos manuais
+- Backups eram automartizados mas tinham outros processos manuais
 - Downtime era maior devido à intervenção humana quando um servidor deixa de funcionar
-- Não existia live migration de serviços de um servidor danificado para outro
+- Não existia live migration de serviços de um servidor para outro (por dados ou sobrecarga)
 
 [[dark]]
 == !
@@ -106,7 +106,7 @@ image::799px-Amazon.com-Logo.png[background]
 
 image::200px-Amazon.com-Logo.png[]
 
-- A Amazon era tão boa em prover soluções de automação de infraestrutura e software que passou a fornecer tal infraestrutura como serviço.
+- A Amazon era tão boa em prover soluções de software e automação de infraestrutura que passou a fornecer isto como serviço.
 [%step]
 
 == A tendência atual
