@@ -22,6 +22,8 @@ ifdef::env-github[]
 
 Apresenta uma visão geral sobre computação em nuvem e como tirar proveito de tais serviços para empreender no mercado de desenvolvimento de sistemas web e mobile apps. A apresentaçao é escrita em http://asciidoctor.org[Asciidoc] e https://github.com/hakimel/reveal.js[Reveal.js] por meio do plugin https://github.com/asciidoctor/asciidoctor-reveal.js/[Asciidoctor Reveal.js].
 
+Os slides podem ser acessados online http://manoelcampos.com/cloud-computing-overview/index.html[aqui].
+
 == Compilar os slides
 
 - Para instalar as dependências para poder compilar os slides execute `make install`.
@@ -31,9 +33,8 @@ endif::[]
 
 = Cloud Computing Overview: empreender no mercado de TI utilizando serviços na nuvem
 
-Prof. Me. Manoel Campos da Silva Filho +
-http://about.me/manoelcampos *
-http://github.com/manoelcampos/cloud-computing-overview
+https://about.me/manoelcampos[Prof. Me. Manoel Campos da Silva Filho] +
+link::https://github.com/manoelcampos/cloud-computing-overview[github.com/manoelcampos/cloud-computing-overview]
 
 [[dark]]
 == Cloud Computing Everywhere
