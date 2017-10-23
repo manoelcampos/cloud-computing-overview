@@ -7,6 +7,7 @@
 :safe: unsafe
 :listing-caption: Listing
 :revealjs_theme: white
+:customcss: estilo.css
 
 ifdef::env-github[]
 :outfilesuffix: .adoc
@@ -22,21 +23,79 @@ endif::[]
 Prof. Me. Manoel Campos da Silva Filho +
 http://about.me/manoelcampos 
 
+[[dark]]
 == Cloud Computing Everywhere
 
 image::network-782707.png[background, link="https://pixabay.com/en/network-iot-internet-of-things-782707/"]
+
+[%step]
+- Inúmeros equipamentos nunca antes imaginados estão conectados na nuvem
+-Smart devices com limitada capacidade computacional como processamento, memória e armazenamento
+- Dispositivos coletam dados de usuários (como fotos) e de sensores (como temperatura, localização) e enviam para aplicações na nuvem para processamento
 
 // image::network-2402637.jpg[background, link="https://pixabay.com/en/network-server-system-2402637"]
 
 // image::cloud-computing.png[background, link="http://www.nubit.es/5-competencias-necesarias-para-trabajar-en-seguridad-cloud/"]
 
+[[dark]]
 == Como tudo começou: Provedores de Hospedagem
 
-image::locaweb31.jpg[background, link=https://exame.abril.com.br/negocios/locaweb-compra-all-in-mail]
+// image::locaweb31.jpg[background, link=https://exame.abril.com.br/negocios/locaweb-compra-all-in-mail]
+// image::datacenter.jpg[background, link=http://www.oregon-systems.com/data-center.php]
+image::1400x600-datacenter.jpg[background, link=https://www.securitas.be/grote-bedrijven-overheid/kantoren/datacenters/]
 
-== O boom da Amazon: abertura de sua plataforma
+[%step]
+- Serviços de hospedagem de sites
+- Bancos de Dados
+- Armazenamento de Arquivos
+
+[[dark]]
+== Hosting Providers x Cloud
+
+image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
+
+[%step]
+- Falta de controle de configurações do SO e web servers caso precise
+- Normalmente se escolhia entre Windows ou Linux, sem muitas opções
+- Configurações de runtimes para Java, Microsoft .Net, PHP e outros normalmente era limitada
+
+[[dark]]
+== Hosting Providers x Cloud
+
+image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
+
+[%step]
+- Usar uma versão mais nova de tais runtimes muitas vezes dependia da disponibilização pelo provedor
+- Configurações do web server e muitas aplicações somente o provedor poderia instalar (se instalasse)
+- Quantidade de máquinas a usar aumentava muito o custo (para fazer balanceamento de carga, por exemplo)
+
+[[dark]]
+== Hosting Providers x Cloud
+
+image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
+
+[%step]
+- Backups era automartizados mas tinham muitos processos manuais
+- Downtime era maior devido à intervenção humana quando um servidor deixa de funcionar
+- Não existia live migration de serviços de um servidor danificado para outro
+
+[[dark]]
+== !
+
+[NOTE.speaker]
+--
+O Boom da Amazon
+--
+
+image::799px-Amazon.com-Logo.png[background]
+
+[[dark]]
+== O boom da Amazon
+
+image::200px-Amazon.com-Logo.png[]
 
 - A Amazon era tão boa em prover soluções de automação de infraestrutura e software que passou a fornecer tal infraestrutura como serviço.
+[%step]
 
 == A tendência atual
 
@@ -76,7 +135,7 @@ Ver o caso da amazon (acho que tem no livro lean startup)
 
 == Amazon Web Services (AWS)
 
-image::aws-services.png[background, link=https://aws.amazon.com/products]
+image::aws-services.png[background, link=   https://aws.amazon.com/products]
 
 == Amazon Web Services (AWS)
 
