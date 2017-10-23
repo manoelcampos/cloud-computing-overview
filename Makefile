@@ -10,5 +10,3 @@ install:
 	#Install build dependencies using Bundler
 	bundler
 	
-clean:
-	rm -f index.html
