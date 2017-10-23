@@ -30,10 +30,11 @@ Apresenta uma visão geral sobre computação em nuvem e como tirar proveito de 
 endif::[]
 
 
-= Cloud Computing Overview: como empreender no mercado de TI utilizando serviços na nuvem
+= Cloud Computing Overview: empreender no mercado de TI utilizando serviços na nuvem
 
 Prof. Me. Manoel Campos da Silva Filho +
-http://about.me/manoelcampos 
+http://about.me/manoelcampos *
+http://github.com/manoelcampos/cloud-computing-overview
 
 [[dark]]
 == Cloud Computing Everywhere
@@ -87,50 +88,53 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Backups eram automartizados mas tinham outros processos manuais
+- Backups eram automatizados mas tinham outros processos manuais
 - Downtime era maior devido à intervenção humana quando um servidor deixa de funcionar
 - Não existia live migration de serviços de um servidor para outro (por dados ou sobrecarga)
+- Requisição de uma máquinia extra era manual e demorado
 
 [[dark]]
-== !
+== Popularização da Cloud Computing
 
-[NOTE.speaker]
---
-O Boom da Amazon
---
+image::799px-Amazon.com-Logo.png[]
 
-image::799px-Amazon.com-Logo.png[background]
+https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/
 
 [[dark]]
-== O boom da Amazon
+== O Boom
 
-image::200px-Amazon.com-Logo.png[]
+image::320px-Amazon.com-Logo.png[]
 
 - A Amazon era tão boa em prover soluções de software e automação de infraestrutura que passou a fornecer isto como serviço.
+
+[[dark]]
+== Constribuições da Cloud Computing
+
+// image::innovation.jpg[background, link=https://www.bigspeak.com/top-10-innovation-speakers-thought-leaders/]
+
+image::innovation1.jpg[background, link=http://www.newslettereuropean.eu/what-are-the-most-innovative-countries-in-the-eu/]
+
 [%step]
-
-== A tendência atual
-
-- Quando uma empresa passa a ser tão boa no que faz, ela abre para outras participarem do negócio.
-- Exemplos são as lojas virtuais como Amaricanas, Ponto Frio, Magazine Luiza, E-Bay e a própria Amazon
-
-== Mas o que é Cloud Computing resolve (NIST)?
-
 - on-demand self-service
-- broad network access
-- resource pooling
-- rapid elasticity
-- measured service (monitoring)
+- pool de recursos
+- elasticidade
+- monitoramento de falhas e uso de recursos
 
-== Deployment Models (NIST)
+== Modelos de Distribuição
 
-== Virtualização e Containers
+image::stairway-to-heaven_vktwwsz6__F0000.png[background, link=https://www.videoblocks.com/video/stairway-to-heaven-r80kqgd/]
 
-image::containers.png[link=https://linuxcontainers.org]
+- Nuvens Públicas
+- Nuvens Privadas
+- Nuvens Comunitárias
+- Nuvens Híbridas
 
-== Características Básicas
+== Virtualização
 
-Modelos de Serviços
+image::server_virtualization.png[]
+
+== Modelos de Serviços
+image::Cloud-Service-Models.png[]
 
 == Os desafios de Startups de Tecnologia
 
@@ -143,19 +147,19 @@ Ver o caso da amazon (acho que tem no livro lean startup)
 == Como iniciar seu projeto sem custos de implantação
 
 - Custos crescendo de acordo com o crescimento do projeto (base de usuários)
-- Apresentar os serviços na nuvem que podem ser utilizados
 
+[[dark]]
 == Amazon Web Services (AWS)
 
 image::aws-services.png[background, link=   https://aws.amazon.com/products]
 
-== Amazon Web Services (AWS)
+[[dark]]
+== aws.amazon.com
 
-https://aws.amazon.com
+image::aws.png[background, link=https://www.techrepublic.com/article/amazon-web-services-the-smart-persons-guide/]
 
 - Amazon S3
 - Amazon EC2
-- Amazon ELB
 - Amazon RDS
 
 == Additional AWS Services
@@ -164,17 +168,43 @@ https://aws.amazon.com
 - CloudFormation
 - AWS Elastic Beanstalk
 
+== Serverless Architecture
+
+image::aws-lambda-function.png[link=https://medium.freecodecamp.org/how-you-can-speed-up-serverless-development-by-simulating-aws-lambda-locally-41c61a60fbae]
+
+- Function as a Service (FaaS)
+- Microservices
+
+== Containers
+
+image::containers.png[link=https://linuxcontainers.org]
+
 == AWS for Mobile Apps
 - Amazon Lambda
 - Amazon API Gateway
 - Amazon Pinpoint / Amazon SNS
-- Amazon GameLift
-- AWS Device Farm
 
-== AWS CodePipeline
+== Como começar?
 
-== Cloud Native
-https://www.cncf.io
+- https://www.qwiklabs.com
+- Hands-on Labs
+- On-demand and at your own pace
+- Gooogle, Amazon e outras plataformas de Cloud
+
+== AWS Educate
+
+image::aws-educate.png[]
+
+image::aws-educate-profiles.png[]
+
+https://aws.amazon.com/pt/education/awseducate/
+
+== AWS Startups
+
+image::startups-skyline.jpg[background, link=https://aws.amazon.com/pt/startups/]
+
+https://aws.amazon.com/pt/startups/
+
 
 == !
 
