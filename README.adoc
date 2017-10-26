@@ -1,4 +1,4 @@
-:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+:revealjsdir: reveal.js
 :revealjs_slideNumber: true
 :source-highlighter: highlightjs
 :imagesdir: images
@@ -173,6 +173,8 @@ image::bankrupt.jpg[background, link=https://www.imoney.my/articles/fewer-malays
 [[dark]]
 == Amazon Web Services (AWS)
 
+https://aws.amazon.com/products
+
 image::aws-services.png[background, link=   https://aws.amazon.com/products]
 
 [[dark]]
@@ -185,13 +187,23 @@ image::aws.png[background, link=https://www.techrepublic.com/article/amazon-web-
 - Amazon EC2
 - Amazon RDS
 
-== Outros AWS Services
+== Auto Scaling
 
 [%step]
-- Auto Scaling
-- Elastic Load Balancing
-- Elastic Beanstalk
-- CloudFormation
+- image:vertical-scaling-small.gif[width=200] +
+- image:horizontal-scaling-small.gif[width=200]
+
+== Elastic Load Balancing 
+
+image::loadbalancer.gif[link=https://www.considerednormal.com/2015/03/project-load-balancing/, width=300]
+
+== Elastic Beanstalk
+
+image:ElasticBeanstalk.png[link=https://aws.amazon.com/pt/elasticbeanstalk/]
+
+== CloudFormation
+
+image::CloudFormation.png[link=https://aws.amazon.com/pt/cloudformation/]
 
 [[dark]]
 == AWS for Mobile Apps
@@ -202,6 +214,13 @@ image::aws-mobile-sdk.jpg[background, link=https://www.slideshare.net/AmazonWebS
 - Amazon Lambda: no server, no configuration, auto scaling, pay-as-you-go
 - Amazon API Gateway
 - Amazon Pinpoint / Amazon SNS
+
+== AWS for Mobile Apps
+
+image::machine-learning.png[background, link=https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer]
+
+[%step]
+- Machine Learning com Tensor Flow
 
 == Serverless Architecture
 
