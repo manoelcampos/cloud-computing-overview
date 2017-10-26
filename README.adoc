@@ -57,7 +57,7 @@ image::network-782707.png[background, link="https://pixabay.com/en/network-iot-i
 image::1400x600-datacenter.jpg[background, link=https://www.securitas.be/grote-bedrijven-overheid/kantoren/datacenters/]
 
 [%step]
-- Serviços de hospedagem de sites
+- Serviços de Hospedagem de Sites
 - Bancos de Dados
 - Armazenamento de Arquivos
 
@@ -68,7 +68,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 
 [%step]
 - Falta de controle de configurações do SO e web servers
-- Escolhia entre Windows ou Linux, sem muitas opções
+- Escolha entre Windows ou Linux, sem muitas opções
 - Configurações para Java, Microsoft .Net ... PHP era limitada
 
 [[dark]]
@@ -79,7 +79,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 [%step]
 - Usar uma versão mais nova de uma linguagem não era imediato
 - Instalação de apps podiam depender do provedor
-- Aumento de máquinas aumentava muito o custo
+- Downtime era maior devido à intervenção humana
 
 [[dark]]
 == Provedores de Hospedagem x Cloud
@@ -87,16 +87,17 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Downtime era maior devido à intervenção humana
 - Não existia live migration de serviços
+- Aumento de máquinas aumentava muito o custo
 - Requisição de um servidor extra era manual e demorado
 
 == Popularização da Cloud Computing
 
-image::799px-Amazon.com-Logo.png[]
+image::320px-Amazon.com-Logo.png[]
 
-http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
-https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
+- http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
+- https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
+- Nos Bastidores Da Amazon - Richard L. Brandt
 
 
 [[dark]]
@@ -104,7 +105,8 @@ https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-
 
 image::320px-Amazon.com-Logo.png[]
 
-- A Amazon era tão boa em prover soluções de software e automação de infraestrutura que passou a fornecer isto como serviço.
+[%step]
+- Prover soluções de software e automação de infraestrutura
 
 [[dark]]
 == Constribuições da Cloud Computing
@@ -112,6 +114,8 @@ image::320px-Amazon.com-Logo.png[]
 // image::innovation.jpg[background, link=https://www.bigspeak.com/top-10-innovation-speakers-thought-leaders/]
 
 image::innovation1.jpg[background, link=http://www.newslettereuropean.eu/what-are-the-most-innovative-countries-in-the-eu/]
+
+(NIST)
 
 [%step]
 - on-demand self-service
@@ -141,13 +145,11 @@ image::Cloud-Service-Models.png[]
 image::startup-photos.jpg[background, link=https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/]
 
 [%step]
-- Fazer decolar uma ideia
 - Ter os recursos necessários
 - Ter a equipe certa ou simplesmente ter uma equipe
-- Conhecer o mercado
 - Divulgar e rentabilizar o produto
 - Adotar as tecnologias certas
-- Conseguir se sustentar no mercado
+- Conseguir se manter no mercado
 - Estar a frente de concorrentes
 
 [[dark]]
@@ -157,10 +159,10 @@ image::Building-Company.jpg[background, link=https://homebuildingcompany.co.uk/s
 
 [%step]
 - Amazon
-- EasyTaxi
+- EasyTaxi (https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes[https://goo.gl/a258m5])
 
 [[dark]]
-== Como iniciar seu projeto na Cloud
+== Como iniciar seu projeto na Cloud?
 
 image::bankrupt.jpg[background, link=https://www.imoney.my/articles/fewer-malaysians-declare-bankrupt-new-amendments]
 
@@ -209,8 +211,6 @@ image:serverless.jpg[]
 
 image::aws-lambda-function.png[link=https://medium.freecodecamp.org/how-you-can-speed-up-serverless-development-by-simulating-aws-lambda-locally-41c61a60fbae]
 
-// https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes
-
 [%step]
 - Function as a Service (FaaS)
 - Microservices 
@@ -219,10 +219,11 @@ image::aws-lambda-function.png[link=https://medium.freecodecamp.org/how-you-can-
 
 
 [%step]
+- http://docs.aws.amazon.com
 - https://www.qwiklabs.com
-- Hands-on Labs
-- On-demand, no seu próprio rítmo
-- Gooogle, Amazon e outras plataformas de Cloud
+    * Hands-on Labs
+    * On-demand, no seu próprio rítmo
+    * Gooogle, Amazon e outras plataformas de Cloud
 
 == AWS Educate
 
@@ -246,6 +247,16 @@ image::startups-skyline.jpg[background, link=https://aws.amazon.com/pt/startups/
 
 https://aws.amazon.com/pt/startups/
 
+== !
+
+image::last-words-2.jpg[background, link=https://georgesjournal.net/2012/12/01/final-words/]
+
+[%step]
+- Facilidade para desenvolver e disponibilizar apps
+- Total automatização: fim das tarefas repetitivas
+- Infraestrutura programável
+- Nem só desenvolvedores precisam utilizar programação
+- Os custos do seu negócio podem começar de zero ao infinito
 
 == !
 
