@@ -43,7 +43,7 @@ image::network-782707.png[background, link="https://pixabay.com/en/network-iot-i
 
 [%step]
 - Inúmeros equipamentos nunca antes imaginados estão conectados na nuvem
--Smart devices com limitada capacidade computacional como processamento, memória e armazenamento
+- Smart devices com limitada capacidade computacional como processamento, memória e armazenamento
 - Dispositivos coletam dados de usuários (como fotos) e de sensores (como temperatura, localização) e enviam para aplicações na nuvem para processamento
 
 // image::network-2402637.jpg[background, link="https://pixabay.com/en/network-server-system-2402637"]
@@ -63,7 +63,7 @@ image::1400x600-datacenter.jpg[background, link=https://www.securitas.be/grote-b
 - Armazenamento de Arquivos
 
 [[dark]]
-== Hosting Providers x Cloud
+== Provedores de Hospedagem x Cloud
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
@@ -73,7 +73,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 - Configurações de runtimes para Java, Microsoft .Net, PHP e outros normalmente era limitada
 
 [[dark]]
-== Hosting Providers x Cloud
+== Provedores de Hospedagem x Cloud
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
@@ -83,22 +83,23 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 - Aumento de máquinas aumentava muito o custo (para fazer balanceamento de carga, por exemplo)
 
 [[dark]]
-== Hosting Providers x Cloud
+== Provedores de Hospedagem x Cloud
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
 - Backups eram automatizados mas tinham outros processos manuais
 - Downtime era maior devido à intervenção humana quando um servidor deixa de funcionar
-- Não existia live migration de serviços de um servidor para outro (por dados ou sobrecarga)
+- Não existia live migration de serviços de um servidor para outro (por avaria ou sobrecarga)
 - Requisição de uma máquinia extra era manual e demorado
 
-[[dark]]
 == Popularização da Cloud Computing
 
 image::799px-Amazon.com-Logo.png[]
 
-https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/
+http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
+https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
+
 
 [[dark]]
 == O Boom
@@ -129,22 +130,45 @@ image::stairway-to-heaven_vktwwsz6__F0000.png[background, link=https://www.video
 - Nuvens Comunitárias
 - Nuvens Híbridas
 
-== Virtualização
+== Como a Cloud Funciona
 
 image::server_virtualization.png[]
 
 == Modelos de Serviços
 image::Cloud-Service-Models.png[]
 
+[[dark]]
 == Os desafios de Startups de Tecnologia
 
+image::startup-photos.jpg[background, link=https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/]
+
+[%step]
+- Fazer decolar uma ideia
+- Ter os recursos necessários
+- Ter a equipe certa ou simplesmente ter uma equipe
+- Conhecer o mercado
+- Divulgar e rentabilizar o produto
+- Adotar as tecnologias certas
+- Conseguir se sustentar no mercado
+- Estar a frente de concorrentes
+
+[[dark]]
 == Como grandes negócios começaram
 
-Ver o caso da amazon (acho que tem no livro lean startup)
+image::Building-Company.jpg[background, link=https://homebuildingcompany.co.uk/starting-a-building-company-in-cheshire/]
+
+[%step]
+- Amazon
+- EasyTaxi
 
 == O que precisa uma Startup de tecnologia
 
+image::maslow_pyramid_business4good.org.jpg[link=http://www.business4good.org/2011/06/pyramid-of-conscious-capitalism-abraham.html]
+
+[[dark]]
 == Como iniciar seu projeto sem custos de implantação
+
+image::bankrupt.jpg[background, link=https://www.imoney.my/articles/fewer-malaysians-declare-bankrupt-new-amendments]
 
 - Custos crescendo de acordo com o crescimento do projeto (base de usuários)
 
@@ -158,35 +182,44 @@ image::aws-services.png[background, link=   https://aws.amazon.com/products]
 
 image::aws.png[background, link=https://www.techrepublic.com/article/amazon-web-services-the-smart-persons-guide/]
 
+[%step]
 - Amazon S3
 - Amazon EC2
 - Amazon RDS
 
 == Additional AWS Services
 
+[%step]
 - Auto Scaling
-- CloudFormation
+- AWS Elastic Load Balancing
 - AWS Elastic Beanstalk
+- AWs CloudFormation
 
 == Serverless Architecture
 
 image::aws-lambda-function.png[link=https://medium.freecodecamp.org/how-you-can-speed-up-serverless-development-by-simulating-aws-lambda-locally-41c61a60fbae]
 
+// https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes
+
 - Function as a Service (FaaS)
-- Microservices
+- Microservices 
 
 == Containers
 
 image::containers.png[link=https://linuxcontainers.org]
 
 == AWS for Mobile Apps
-- Amazon Lambda
+
+[%step]
+- Amazon Lambda: no server to manage or configure, auto scaling, pay-as-you-go
 - Amazon API Gateway
 - Amazon Pinpoint / Amazon SNS
 
 == Como começar?
 
-- https://www.qwiklabs.com
+https://www.qwiklabs.com
+
+[%step]
 - Hands-on Labs
 - On-demand and at your own pace
 - Gooogle, Amazon e outras plataformas de Cloud
@@ -198,6 +231,10 @@ image::aws-educate.png[]
 image::aws-educate-profiles.png[]
 
 https://aws.amazon.com/pt/education/awseducate/
+
+== AWS Free Tier
+
+https://aws.amazon.com/pt/free/
 
 == AWS Startups
 
