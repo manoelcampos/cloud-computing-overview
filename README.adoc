@@ -30,7 +30,6 @@ Os slides podem ser acessados online http://manoelcampos.com/cloud-computing-ove
 - Para compilar os slides para HTML, execute `make` e um arquivo `index.html` será gerado na pasta atual.
 endif::[]
 
-
 = Cloud Computing Overview: empreender no mercado de TI utilizando serviços na nuvem
 
 https://about.me/manoelcampos[Prof. Me. Manoel Campos da Silva Filho] +
@@ -42,9 +41,9 @@ link:https://github.com/manoelcampos/cloud-computing-overview[github.com/manoelc
 image::network-782707.png[background, link="https://pixabay.com/en/network-iot-internet-of-things-782707/"]
 
 [%step]
-- Inúmeros equipamentos nunca antes imaginados estão conectados na nuvem
-- Smart devices com limitada capacidade computacional como processamento, memória e armazenamento
-- Dispositivos coletam dados de usuários (como fotos) e de sensores (como temperatura, localização) e enviam para aplicações na nuvem para processamento
+- Inúmeros equipamentos conectados na nuvem
+- Smart devices com limitada capacidade computacional
+- Dispositivos enviam dados de usuários e de sensores para a nuvem
 
 // image::network-2402637.jpg[background, link="https://pixabay.com/en/network-server-system-2402637"]
 
@@ -68,9 +67,9 @@ image::1400x600-datacenter.jpg[background, link=https://www.securitas.be/grote-b
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Falta de controle de configurações do SO e web servers caso precise
-- Normalmente se escolhia entre Windows ou Linux, sem muitas opções
-- Configurações de runtimes para Java, Microsoft .Net, PHP e outros normalmente era limitada
+- Falta de controle de configurações do SO e web servers
+- Escolhia entre Windows ou Linux, sem muitas opções
+- Configurações para Java, Microsoft .Net ... PHP era limitada
 
 [[dark]]
 == Provedores de Hospedagem x Cloud
@@ -78,9 +77,9 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Usar uma versão mais nova de tais runtimes muitas vezes dependia da disponibilização pelo provedor
-- Configurações do web server e muitas aplicações somente o provedor poderia instalar (se instalasse)
-- Aumento de máquinas aumentava muito o custo (para fazer balanceamento de carga, por exemplo)
+- Usar uma versão mais nova de uma linguagem não era imediato
+- Instalação de apps podiam depender do provedor
+- Aumento de máquinas aumentava muito o custo
 
 [[dark]]
 == Provedores de Hospedagem x Cloud
@@ -88,10 +87,9 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
 [%step]
-- Backups eram automatizados mas tinham outros processos manuais
-- Downtime era maior devido à intervenção humana quando um servidor deixa de funcionar
-- Não existia live migration de serviços de um servidor para outro (por avaria ou sobrecarga)
-- Requisição de uma máquinia extra era manual e demorado
+- Downtime era maior devido à intervenção humana
+- Não existia live migration de serviços
+- Requisição de um servidor extra era manual e demorado
 
 == Popularização da Cloud Computing
 
@@ -161,16 +159,14 @@ image::Building-Company.jpg[background, link=https://homebuildingcompany.co.uk/s
 - Amazon
 - EasyTaxi
 
-== O que precisa uma Startup de tecnologia
-
-image::maslow_pyramid_business4good.org.jpg[link=http://www.business4good.org/2011/06/pyramid-of-conscious-capitalism-abraham.html]
-
 [[dark]]
-== Como iniciar seu projeto sem custos de implantação
+== Como iniciar seu projeto na Cloud
 
 image::bankrupt.jpg[background, link=https://www.imoney.my/articles/fewer-malaysians-declare-bankrupt-new-amendments]
 
-- Custos crescendo de acordo com o crescimento do projeto (base de usuários)
+[%step]
+- Sem custos inicias de implantação
+- Custos crescendo de acordo com o crescimento do projeto
 
 [[dark]]
 == Amazon Web Services (AWS)
@@ -187,13 +183,27 @@ image::aws.png[background, link=https://www.techrepublic.com/article/amazon-web-
 - Amazon EC2
 - Amazon RDS
 
-== Additional AWS Services
+== Outros AWS Services
 
 [%step]
 - Auto Scaling
-- AWS Elastic Load Balancing
-- AWS Elastic Beanstalk
-- AWs CloudFormation
+- Elastic Load Balancing
+- Elastic Beanstalk
+- CloudFormation
+
+[[dark]]
+== AWS for Mobile Apps
+
+image::aws-mobile-sdk.jpg[background, link=https://www.slideshare.net/AmazonWebServices/build-your-mobile-app-faster-with-aws-mobile-services]
+
+[%step]
+- Amazon Lambda: no server, no configuration, auto scaling, pay-as-you-go
+- Amazon API Gateway
+- Amazon Pinpoint / Amazon SNS
+
+== Serverless Architecture
+
+image:serverless.jpg[]
 
 == Serverless Architecture
 
@@ -201,27 +211,17 @@ image::aws-lambda-function.png[link=https://medium.freecodecamp.org/how-you-can-
 
 // https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes
 
+[%step]
 - Function as a Service (FaaS)
 - Microservices 
 
-== Containers
-
-image::containers.png[link=https://linuxcontainers.org]
-
-== AWS for Mobile Apps
-
-[%step]
-- Amazon Lambda: no server to manage or configure, auto scaling, pay-as-you-go
-- Amazon API Gateway
-- Amazon Pinpoint / Amazon SNS
-
 == Como começar?
 
-https://www.qwiklabs.com
 
 [%step]
+- https://www.qwiklabs.com
 - Hands-on Labs
-- On-demand and at your own pace
+- On-demand, no seu próprio rítmo
 - Gooogle, Amazon e outras plataformas de Cloud
 
 == AWS Educate
@@ -232,10 +232,14 @@ image::aws-educate-profiles.png[]
 
 https://aws.amazon.com/pt/education/awseducate/
 
+[[dark]]
 == AWS Free Tier
+
+image::its-free.jpg[background, link=http://miamipayrollcenter.com/human-resources-news-updates/promo/free/]
 
 https://aws.amazon.com/pt/free/
 
+[[dark]]
 == AWS Startups
 
 image::startups-skyline.jpg[background, link=https://aws.amazon.com/pt/startups/]
