@@ -50,7 +50,7 @@ image::network-782707.png[background, link="https://pixabay.com/en/network-iot-i
 // image::cloud-computing.png[background, link="http://www.nubit.es/5-competencias-necesarias-para-trabajar-en-seguridad-cloud/"]
 
 [[dark]]
-== Como tudo começou: Provedores de Hospedagem
+== Tudo começou com os Provedores de Hospedagem
 
 // image::locaweb31.jpg[background, link=https://exame.abril.com.br/negocios/locaweb-compra-all-in-mail]
 // image::datacenter.jpg[background, link=http://www.oregon-systems.com/data-center.php]
@@ -95,10 +95,10 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 
 image::320px-Amazon.com-Logo.png[]
 
-- http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
-- https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
+[%step]
+- Prover soluções de software e automação de infraestrutura
 - Nos Bastidores Da Amazon - Richard L. Brandt
-
+- http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
 
 [[dark]]
 == O Boom
@@ -106,7 +106,7 @@ image::320px-Amazon.com-Logo.png[]
 image::320px-Amazon.com-Logo.png[]
 
 [%step]
-- Prover soluções de software e automação de infraestrutura
+- https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
 
 [[dark]]
 == Constribuições da Cloud Computing
@@ -129,7 +129,6 @@ image::stairway-to-heaven_vktwwsz6__F0000.png[background, link=https://www.video
 
 - Nuvens Públicas
 - Nuvens Privadas
-- Nuvens Comunitárias
 - Nuvens Híbridas
 
 == Como a Cloud Funciona
@@ -146,7 +145,7 @@ image::startup-photos.jpg[background, link=https://www.pexels.com/photo/startup-
 
 [%step]
 - Ter os recursos necessários
-- Ter a equipe certa ou simplesmente ter uma equipe
+- Ter a equipe certa
 - Divulgar e rentabilizar o produto
 - Adotar as tecnologias certas
 - Conseguir se manter no mercado
@@ -185,7 +184,7 @@ image::aws.png[background, link=https://www.techrepublic.com/article/amazon-web-
 [%step]
 - Amazon S3
 - Amazon EC2
-- Amazon RDS
+- Amazon RDS / DynamoDB
 
 == Auto Scaling
 
