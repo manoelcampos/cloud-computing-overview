@@ -1,5 +1,5 @@
 all: 
-	bundle exec asciidoctor-revealjs "README.adoc" -o index.html
+	bundle exec asciidoctor-revealjs "README.adoc" -o slides.html
 
 install:
 	#Install bundler, that in turn downloads Ruby dependencies inside the Gemfile: http://bundler.io

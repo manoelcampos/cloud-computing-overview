@@ -4,7 +4,7 @@
 :imagesdir: images
 :allow-uri-read:
 :safe: unsafe
-:listing-caption: Listing
+:listing-caption: Listagem
 :revealjs_theme: white
 :customcss: estilo.css
 
@@ -30,7 +30,7 @@ Os slides podem ser acessados online http://manoelcampos.com/cloud-computing-ove
 - Para compilar os slides para HTML, execute `make` e um arquivo `index.html` será gerado na pasta atual.
 endif::[]
 
-= Cloud Computing Overview: empreender no mercado de TI utilizando serviços na nuvem
+= Cloud Computing: empreendendo no mercado de TI utilizando serviços na nuvem
 
 https://about.me/manoelcampos[Prof. Me. Manoel Campos da Silva Filho] +
 link:https://github.com/manoelcampos/cloud-computing-overview[github.com/manoelcampos/cloud-computing-overview]
@@ -62,7 +62,12 @@ image::1400x600-datacenter.jpg[background, link=https://www.securitas.be/grote-b
 - Armazenamento de Arquivos
 
 [[dark]]
-== Provedores de Hospedagem x Cloud
+== !
+
+image::cloud_hosting-original.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
+
+[[dark]]
+== !
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
@@ -72,7 +77,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 - Configurações para Java, Microsoft .Net ... PHP era limitada
 
 [[dark]]
-== Provedores de Hospedagem x Cloud
+== !
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
@@ -82,7 +87,7 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 - Downtime era maior devido à intervenção humana
 
 [[dark]]
-== Provedores de Hospedagem x Cloud
+== !
 
 image::cloud_hosting.png[background, link=https://hostingfacts.com/different-types-of-web-hosting/]
 
@@ -91,22 +96,23 @@ image::cloud_hosting.png[background, link=https://hostingfacts.com/different-typ
 - Aumento de máquinas aumentava muito o custo
 - Requisição de um servidor extra era manual e demorado
 
+[[dark]]
 == Popularização da Cloud Computing
 
 image::320px-Amazon.com-Logo.png[]
 
 [%step]
+- Lançamento dos Amazon Web Services em 2002 <https://en.wikipedia.org/wiki/Amazon_Web_Services[1], https://web.stanford.edu/class/ee204/Publications/Amazon-EE353-2008-1.pdf[2], http://www.computerweekly.com/feature/A-history-of-cloud-computing[3]>
 - Prover soluções de software e automação de infraestrutura
-- Nos Bastidores Da Amazon - Richard L. Brandt
-- http://www.computerweekly.com/feature/A-history-of-cloud-computing[A history of cloud computing]
+- Livro: Nos Bastidores Da Amazon - Richard L. Brandt
 
 [[dark]]
-== O Boom
+== O Boom em 2006
 
 image::320px-Amazon.com-Logo.png[]
 
 [%step]
-- https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Announcing Amazon EC2]
+- https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/[Anunciando o Serviço Amazon EC2]
 
 [[dark]]
 == Constribuições da Cloud Computing
@@ -133,7 +139,8 @@ image::stairway-to-heaven_vktwwsz6__F0000.png[background, link=https://www.video
 
 == Como a Cloud Funciona
 
-image::server_virtualization.png[]
+image::virtualization-vs-containers-redhat.png[link=https://redhat.com/pt-br/topics/containers/whats-a-linux-container, title=Adaptada de https://red.ht/2I84tyw]
+
 
 == Modelos de Serviços
 image::Cloud-Service-Models.png[]
@@ -146,6 +153,7 @@ image::startup-photos.jpg[background, link=https://www.pexels.com/photo/startup-
 [%step]
 - Ter os recursos necessários
 - Ter a equipe certa
+- Ter o produto certo
 - Divulgar e rentabilizar o produto
 - Adotar as tecnologias certas
 - Conseguir se manter no mercado
@@ -157,8 +165,9 @@ image::startup-photos.jpg[background, link=https://www.pexels.com/photo/startup-
 image::Building-Company.jpg[background, link=https://homebuildingcompany.co.uk/starting-a-building-company-in-cheshire/]
 
 [%step]
-- Amazon
-- EasyTaxi (https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes[https://goo.gl/a258m5])
+- Apple: numa garagem
+- Amazon: com uma página estática que enviada emails ao Jeff Bezos
+- EasyTaxi: no boca-a-boca tentando convencer taxistas (https://www.infoq.com/br/presentations/easytaxi-escalando-um-app-e-uma-ideia-para-4-continentes[http://bit.ly/2I8PvIy])
 
 [[dark]]
 == Como iniciar seu projeto na Cloud?
@@ -174,7 +183,7 @@ image::bankrupt.jpg[background, link=https://www.imoney.my/articles/fewer-malays
 
 https://aws.amazon.com/products
 
-image::aws-services.png[background, link=   https://aws.amazon.com/products]
+image::aws-services.png[background, link=https://aws.amazon.com/products]
 
 [[dark]]
 == aws.amazon.com
