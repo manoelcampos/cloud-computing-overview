@@ -1,4 +1,5 @@
-:revealjsdir: reveal.js
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+// :revealjsdir: reveal.js
 :revealjs_slideNumber: true
 :source-highlighter: highlightjs
 :imagesdir: images
